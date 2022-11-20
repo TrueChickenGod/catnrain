@@ -1,7 +1,6 @@
 body {
-  background-image: url('../img/background.png');
-  background-size: 80%;
-  top: -10px;
+  background-image: url('../img/background.PNG');
+  background-size: 125%;
   background-repeat: no-repeat;
 }
 
@@ -15,10 +14,10 @@ button {
 }
 
 #window {
-  height: 110%;
-  width: 110%;
+  height: 120%;
+  width: 120%;
   position: fixed;
-  left: -25px;
+  left: -50px;
   top: -30px;
 }
 
@@ -29,8 +28,6 @@ button {
   left: 200px;
   top: 100px;
 }
-
-
 
 #lamp {
   height: 60%;
@@ -49,15 +46,17 @@ button {
 }
 
 #blackboard {
-  height: 60%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   position: fixed;
-  left: 350px;
-  top: 100px;
+  left: 20px;
+  top: 20px;
 }
 
 #midground {
   height: 120%;
-  width: 110%;
+  width: 120%;
   position: fixed;
+  left: -50px;
+  top: -30px;
 }
