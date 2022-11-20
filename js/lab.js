@@ -8,9 +8,11 @@
  * Description: Currently a working prototype for our website, will adjust and refine as time goes on.
  */
 
-
-
-
-
-
- 
+ function showWindowPopup() {
+   var x = document.getElementById("blackboard-window");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   } else {
+     x.style.display = "none";
+   }
+ }

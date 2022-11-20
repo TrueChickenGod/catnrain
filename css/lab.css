@@ -1,7 +1,79 @@
 body {
   background-image: url('../img/background.PNG');
-  background-size: 125%;
+  background-size: 90%;
   background-repeat: no-repeat;
+}
+
+#midground {
+  height: 110%;
+  width: 110%;
+  position: fixed;
+  left: -50px;
+  top: -70px;
+}
+
+#window {
+  height: 110%;
+  width: 110%;
+  position: fixed;
+  left: -50px;
+  top: -70px;
+}
+
+#blackboard {
+  height: 100%;
+  width: 110%;
+  position: fixed;
+  left: -50px;
+  top: -40px;
+}
+
+#lights {
+  height: 100%;
+  width: 110%;
+  position:fixed;
+  left: -50px;
+  top: -40px;
+}
+
+#table {
+  height: 110%;
+  width: 110%;
+  position:fixed;
+  left: -50px;
+  top: -85px;
+}
+
+#cactus {
+  height: 100%;
+  width: 80%;
+  position:fixed;
+  left: 100px;
+  top: -20px;
+}
+
+#computer {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  left: 200px;
+  top: -10px;
+}
+
+#lamp {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  left: 200px;
+  top: -10px;
+}
+
+#hourglass {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  left: 80px;
+  top: -20px;
 }
 
 button {
@@ -13,74 +85,6 @@ button {
   width: 104px;
 }
 
-#window {
-  height: 120%;
-  width: 120%;
-  position: fixed;
-  left: -50px;
-  top: -30px;
-}
-
-#computer {
-  height: 60%;
-  width: 50%;
-  position: fixed;
-  left: 200px;
-  top: 100px;
-}
-
-#lamp {
-  height: 60%;
-  width: 50%;
-  position: fixed;
-  left: 275px;
-  top: 100px;
-}
-
-#hourglass {
-  height: 60%;
-  width: 50%;
-  position: fixed;
-  left: 300px;
-  top: 100px;
-}
-
-#blackboard {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  left: 20px;
-  top: 20px;
-}
-
-#midground {
-  height: 120%;
-  width: 120%;
-  position: fixed;
-  left: -50px;
-  top: -30px;
-}
-
-#table {
-  height: 100%;
-  width: 100%;
-  position:fixed;
-  left: 10px;
-  top: 10px;
-}
-
-#lights {
-  height: 100%;
-  width: 100%;
-  position:fixed;
-  left: 10px;
-  top: 10px;
-}
-
-#cactus {
-  height: 100%;
-  width: 100%;
-  position:fixed;
-  left: 10px;
-  top: 10px;
+.btTxt submit:active {
+  border: none;
 }
