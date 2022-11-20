@@ -60,3 +60,27 @@ button {
   left: -50px;
   top: -30px;
 }
+
+#table {
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  left: 10px;
+  top: 10px;
+}
+
+#lights {
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  left: 10px;
+  top: 10px;
+}
+
+#cactus {
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  left: 10px;
+  top: 10px;
+}
