@@ -9,12 +9,18 @@
 </head>
 <body>
 	<main>
-		<img src="img/middleground.png" id="midground" />
+
+
+		<map name="laptop">
+		  <area shape="rect" coords="0, 0, 1000, 1000" alt="Computer" href="https://www.google.com">
+		</map>
+
+		<img src="img/middleground.png" id="midground"/>
 		<input type="image" src="img/window.png" name="window" class="btTxt submit" id="window" />
 		<input type="image" src="img/blackboard.png" name="blackboard" class="btTxt submit" onclick="showWindowPopup" id="blackboard" />
 		<img src="img/table.png" id="table" />
 		<img src="img/lights.png" id="lights" />
-		<input type="image" src="img/laptop.png" name="computer" class="btTxt submit" id="computer" />
+		<input type="image" src="img/laptop.png" name="computer" id="computer" usemap="#laptop"/>
 		<input type="image" src="img/lamp.png" name="lamp" class="btTxt submit" id="lamp" />
 		<input type="image" src="img/lava-lamp.png" name="hourglass" class="btTxt submit" id="hourglass" />
 		<img src="img/cactus.png" id="cactus" />
