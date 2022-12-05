@@ -1,0 +1,21 @@
+body {
+  background-image: url('../img/laptop_popup.png');
+  background-size: 1920px;
+  background-repeat: no-repeat;
+}
+
+#audio {
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  left: 280px;
+  top: 200px;
+}
+
+#music {
+  height: 350px;
+  width: 350px;
+  position: fixed;
+  left: 820px;
+  top: 200px;
+}
