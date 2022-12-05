@@ -16,8 +16,6 @@
 		  <area shape="rect" coords="0, 0, 1000, 1000" alt="Computer" href="https://www.google.com">
 		</map>
 
-		<button id="button"></button>
-
 		<script type="text/javascript">
 		    var buttons = document.getElementById("button");
 		    buttons.innerHTML = '<img src="img/laptop.png />';
@@ -25,16 +23,14 @@
 
 		<img src="img/middleground.png" id="midground"/>
 		<input type="image" src="img/window.png" name="window" class="btTxt submit" id="window" />
-		<input type="image" src="img/blackboard.png" name="blackboard" class="btTxt submit" onclick="showWindowPopup" id="blackboard" />
+		<input type="image" src="img/clickables/blackboard.png" name="blackboard" class="btTxt submit imagebutton" onclick="showWindowPopup" id="blackboard" />
 		<img src="img/table.png" id="table" />
-		<img src="img/lights.png" id="lights" />
-		<input type="image" src="img/laptop.png" name="computer" id="computer" usemap="#laptop"/>
-		<input type="image" src="img/lamp.png" name="lamp" class="btTxt submit" id="lamp" />
-		<input type="image" src="img/lava-lamp.png" name="hourglass" class="btTxt submit" id="hourglass" />
-		<img src="img/cactus.png" id="cactus" />
-		<div id="blackboard-window">
-			<img src="img/window-popup.png" id="window" />
-		</div>
+		<img src="img/clickable/lights.png" id="lights" />
+		<input type="image" src="img/clickables/laptop.png" name="computer" id="computer" usemap="#laptop" class="imagebutton"/>
+		<input type="image" src="img/clickables/lamp.png" name="lamp" class="btTxt submit" id="lamp" />
+		<input type="image" src="img/clickables/lava-lamp.png" name="hourglass" class="btTxt submit imagebutton" id="hourglass" />
+		<img src="img/clickables/cactus.png" id="cactus" class="imagebutton"/>
+
 	</main>
 </body>
 </html>

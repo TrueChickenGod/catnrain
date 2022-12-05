@@ -12,11 +12,12 @@
 
    var x = document.getElementById("blackboard-window");
    if (x.style.display === "none") {
-     x.style.display = "block";
-   } else {
      x.style.display = "none";
+   } else {
+     x.style.display = "block";
    }
+   print("RAN!");
  }
 
-
+//cactus clickable
 $("#cactus").click(showWindowPopup)
