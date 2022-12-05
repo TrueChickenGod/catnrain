@@ -1,6 +1,9 @@
 function show(){
-  document.getElementById('nav-container').classList.toggle("active");
+  document.getElementById('black-dropdown').classList.toggle("active");
   return;
 }
 
 $("#blackboard").click(show);
+$("#orange").click(function(){
+  show();
+});
