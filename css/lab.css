@@ -1,79 +1,79 @@
 body {
   background-image: url('../img/scenery-options/background.png');
-  background-size: 90%;
-  background-repeat: no-repeat; 
+  background-size: 1400px;
+  background-repeat: no-repeat;
 }
 
 #midground {
-  height: 110%;
-  width: 110%;
+  height: auto;
+  width: 1785px;
   position: fixed;
-  left: -50px;
-  top: -70px;
+  left: -45px;
+  top: -145px;
 }
 
 #window {
-  height: 110%;
-  width: 110%;
+  height: auto;
+  width: 472px;
   position: fixed;
-  left: -50px;
-  top: -70px;
+  left: 82px;
+  top: -62px;
 }
 
 #blackboard {
-  height: 100%;
-  width: 110%;
+  height: auto;
+  width: 745px;
   position: fixed;
-  left: -50px;
-  top: -40px;
+  left: 610px;
+  top: 90px;
 }
 
 #lights {
-  height: 100%;
-  width: 110%;
+  height: auto;
+  width: 885px;
   position:fixed;
-  left: -50px;
-  top: -40px;
+  left: 573px;
+  top: 67px;
 }
 
 #table {
-  height: 110%;
-  width: 110%;
+  height: auto;
+  width: 1075px;
   position:fixed;
-  left: -50px;
-  top: -85px;
+  left: 247px;
+  top: 621px;
 }
 
 #cactus {
-  height: 100%;
-  width: 80%;
+  height: auto;
+  width: 105px;
   position:fixed;
-  left: 100px;
-  top: -20px;
+  left: 422px;
+  top: 527px;
 }
 
 #computer {
-  height: 100%;
-  width: 80%;
+  height: auto;
+  width: 360px;
   position: fixed;
-  left: 200px;
-  top: -10px;
+  left: 701px;
+  top: 538px;
 }
 
 #lamp {
-  height: 100%;
-  width: 80%;
+  height: auto;
+  width: 146px;
   position: fixed;
-  left: 200px;
-  top: -10px;
+  left: 1019px;
+  top: 452px;
 }
 
 #hourglass {
-  height: 100%;
-  width: 80%;
+  height: auto;
+  width: 76px;
   position: fixed;
-  left: 80px;
-  top: -20px;
+  left: 342px;
+  top: 554px;
 }
 
 button {
