@@ -1,0 +1,33 @@
+#lava-dropdown{
+  z-index:3;
+  position: fixed;
+  height:50%;
+  width:100%;
+  left:-1px;
+  top: 50%;
+  transition: .4s;
+  overflow: hidden;
+  transform: translateX(75%);
+}
+
+canvas{
+  height: 50%;
+  width:auto;
+}
+#lava-dropdown img{
+  position: absolute;
+  height: 100%;
+  width:auto;
+}
+
+#lava-dropdown.active{
+  position: fixed;
+  top: 100%;
+}
+#lava-constrain{
+  width: 160px;
+  height: 350px;
+  margin-left: 20px;
+  margin-top: 5px;
+  overflow: hidden;
+}
