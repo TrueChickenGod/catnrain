@@ -3,7 +3,7 @@ function show2(){
   return;
 }
 
-$("#laptop").click(show2);
+$("#computer ").click(show2);
 $("#audio").click(function(){
   show2();
 });
