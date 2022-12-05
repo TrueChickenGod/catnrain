@@ -1,15 +1,45 @@
 body {
   background-image: url('../img/blackboard_background.png');
-  background-size: 100%;
+  background-size: 1800px;
   background-repeat: no-repeat;
 }
 
-form {
-  color: white;
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
-  display: inline-block
+#black {
+  height: 250px;
+  width: 280px;
+  position: fixed;
+  left: 200px;
+  top: 80px;
+}
+
+#orange {
+  height: 250px;
+  width: 280px;
+  position: fixed;
+  left: 590px;
+  top: 80px;
+}
+
+#siamese {
+  height: 250px;
+  width: 280px;
+  position: fixed;
+  left: 980px;
+  top: 80px;
+}
+
+#silver {
+  height: 250px;
+  width: 280px;
+  position: fixed;
+  left: 390px;
+  top: 380px;
+}
+
+#tuxedo {
+  height: 250px;
+  width: 280px;
+  position: fixed;
+  left: 790px;
+  top: 380px;
 }
