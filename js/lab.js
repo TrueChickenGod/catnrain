@@ -16,5 +16,3 @@
      x.style.display = "none";
    }
  }
-
- 
