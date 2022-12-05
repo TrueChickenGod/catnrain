@@ -7,3 +7,19 @@ $("#blackboard").click(show);
 $("#orange").click(function(){
   show();
 });
+
+$("#silver").click(function(){
+  show();
+});
+
+$("#tuxedo").click(function(){
+  show();
+});
+
+$("#black").click(function(){
+  show();
+});
+
+$("#siamese").click(function(){
+  show();
+});
