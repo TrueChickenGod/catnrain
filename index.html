@@ -4,6 +4,7 @@
 	<title>Cat'N'Rain</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	<div class = "script">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="js/lab.js" defer></script>
 	</div>
@@ -33,7 +34,7 @@
 		</div>
 
 		<div>
-			<img src="img/lights.png" id="lights" />
+			<img src="img/lights.png" id="lights" class="imagebutton"/>
 		</div>
 
 		<div>
@@ -103,7 +104,15 @@
 
 			</div>
 		</div>
-
+		<div id="lava-popup">
+			<link rel="stylesheet" type="text/css" href="css/popup3.css">
+			<div id="lava-dropdown" class="active">
+				<img src="img/gloopy-popup.png"></img>
+				<div id="lava-constrain">
+					<script src="components/sketch.js"></script>
+				</div>
+			</div>
+		</div>
 	</main>
 </body>
 </html>
