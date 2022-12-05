@@ -1,5 +1,5 @@
 body {
-  background-image: url('../img/background.png');
+  background-image: url('../img/scenery-options/background.png');
   background-size: 90%;
   background-repeat: no-repeat;
 }
@@ -87,4 +87,8 @@ button {
 
 .btTxt submit:active {
   border: none;
+}
+
+.imagebutton {
+  cursor: pointer;
 }
