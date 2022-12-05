@@ -9,6 +9,7 @@
  */
 
  function showWindowPopup() {
+
    var x = document.getElementById("blackboard-window");
    if (x.style.display === "none") {
      x.style.display = "block";
@@ -16,3 +17,6 @@
      x.style.display = "none";
    }
  }
+
+
+$("#cactus").click(showWindowPopup)
