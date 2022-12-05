@@ -92,3 +92,11 @@ button {
 .imagebutton {
   cursor: pointer;
 }
+
+#cat {
+  height: auto;
+  width: 400px;
+  position: fixed;
+  top: 480px;
+  left: 450px;
+}
