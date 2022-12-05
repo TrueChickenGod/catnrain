@@ -17,9 +17,6 @@
      x.style.display = "none";
    }
  }
-<<<<<<< HEAD
 
 
 $("#cactus").click(showWindowPopup)
-=======
->>>>>>> 9f4c02462f6c4e466d0390864bbd2e3cc3bbf3c6
